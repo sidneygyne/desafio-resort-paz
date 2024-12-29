@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #0fe1cf;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #00ab9d;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-atividades .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #d7eae8;
+}
+
+.sectio-title {
+    font-family:  "Rubik Mono One", serif;
+}
+
+.sectio-title span {
+    color: #00ab9d;
+}
+
+#contato,
+#acomodacoes {
+    background-color: #d7eae8;
+}
+
+.text-colored {
+    color: #00ab9d;
+}
+
+.nav-acomodacoes .nav-link:hover {
+    color:#00ab9d;
+}
+.nav-acomodacoes .nav-link.active,
+.nav-pills .nav-link.active,
+#contato button {
+    background-color: #41e1d4;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #015f57;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+footer {
+    background-color: #41e1d4;
+}
